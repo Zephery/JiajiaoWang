@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+
+<struts>
+    <package name="lunwen186" extends="struts-default">
+        <global-results>
+            <result name="succeed">/common/succeed.jsp</result>
+            <result name="successAdd">/common/add_success.jsp</result>
+            <result name="successDel">/common/del_success.jsp</result>
+            <result name="successUpdate">/common/update_success.jsp</result>
+            <result name="msg">/common/msg.jsp</result>
+        </global-results>
+        <!--上传文件-->
+        <action name="upload" class="com.util.upload" method="upload">
+            <result name="success">/upload/upload_re.jsp</result>
+        </action>
+
+        <!--首页-->
+        <action name="index" class="indexAction" method="index">
+            <result name="success">/qiantai/index.jsp</result>
+        </action>
+
+        <!--管理员-->
+        <action name="adminAdd" class="adminAction" method="adminAdd">
+        </action>
+        <action name="adminDel" class="adminAction" method="adminDel">
+        </action>
+        <action name="adminManage" class="adminAction" method="adminManage">
+            <result name="success">/admin/index/adminManage.jsp</result>
+        </action>
+
+        <!--公告-->
+        <action name="gonggaoAdd" class="gonggaoAction" method="gonggaoAdd">
+        </action>
+        <action name="gonggaoDel" class="gonggaoAction" method="gonggaoDel">
+        </action>
+        <action name="gonggaoMana" class="gonggaoAction" method="gonggaoMana">
+            <result>/admin/gonggao/gonggaoMana.jsp</result>
+        </action>
+        <action name="gonggaoMana1" class="gonggaoAction" method="gonggaoMana1">
+            <result>/admin/gonggao/gonggaoMana1.jsp</result>
+        </action>
+        <action name="gonggaoDetail" class="gonggaoAction" method="gonggaoDetail">
+            <result>/admin/gonggao/gonggaoDetail.jsp</result>
+        </action>
+        <action name="gonggaoToUpdate" class="gonggaoAction" method="gonggaoToUpdate">
+            <result>/admin/gonggao/gonggaoupdate.jsp</result>
+        </action>
+        <action name="gonggaoEdit" class="gonggaoAction" method="gonggaoEdit">
+        </action>
+        <action name="gonggaoQian5" class="gonggaoAction" method="gonggaoQian5">
+            <result>/qiantai/gonggao/gonggaoQian5.jsp</result>
+        </action>
+        <action name="gonggaoDetailQian" class="gonggaoAction" method="gonggaoDetailQian">
+            <result>/qiantai/gonggao/gonggaoDetailQian.jsp</result>
+        </action>
+
+        <!--教员-->
+        <action name="jiaoyuanAdd" class="jiaoyuanAction" method="jiaoyuanAdd">
+        </action>
+        <action name="jiaoyuanMana" class="jiaoyuanAction" method="jiaoyuanMana">
+            <result>/admin/jiaoyuan/jiaoyuanMana.jsp</result>
+        </action>
+        <action name="jiaoyuanDel" class="jiaoyuanAction" method="jiaoyuanDel">
+        </action>
+        <action name="jiaoyuanDetail" class="jiaoyuanAction" method="jiaoyuanDetail">
+            <result>/admin/jiaoyuan/jiaoyuanDetail.jsp</result>
+        </action>
+        <action name="jiaoyuanShenhe" class="jiaoyuanAction" method="jiaoyuanShenhe">
+        </action>
+        <action name="jiaoyuanLogout" class="jiaoyuanAction" method="jiaoyuanLogout">
+            <result>/qiantai/default.jsp</result>
+        </action>
+        <action name="jiaoyuanDetail_qian" class="jiaoyuanAction" method="jiaoyuanDetail_qian">
+            <result>/qiantai/jiaoyuan/jiaoyuanDetail_qian.jsp</result>
+        </action>
+        <action name="jiaoyuanAll" class="jiaoyuanAction" method="jiaoyuanAll">
+            <result>/qiantai/jiaoyuan/jiaoyuanAll.jsp</result>
+        </action>
+        <action name="jiaoyuanSearch" class="jiaoyuanAction" method="jiaoyuanSearch">
+            <result>/qiantai/jiaoyuan/jiaoyuanSearch.jsp</result>
+        </action>
+        <action name="jiaoyuanEdit" class="jiaoyuanAction" method="jiaoyuanEdit">
+        </action>
+        <action name="toshowyouxiujiaoyuan" class="jiaoyuanAction" method="toshowyouxiujiaoyuan">
+            <result>/qiantai/jiaoyuan/youxiujiaoyuan.jsp</result>
+        </action>
+
+
+        <!--评论-->
+        <action name="pinglunAdd" class="jiaoyuanAction" method="pinglunAdd">
+        </action>
+        <action name="pinglunAll" class="jiaoyuanAction" method="pinglunAll">
+            <result name="success">/qiantai/jiaoyuan/pinglunAll.jsp</result>
+        </action>
+        <action name="pinglunMana" class="jiaoyuanAction" method="pinglunMana">
+            <result name="success">/admin/jiaoyuan/pinglunMana.jsp</result>
+        </action>
+        <action name="pinglunDel" class="jiaoyuanAction" method="pinglunDel">
+        </action>
+        <action name="toshowpingjia" class="jiaoyuanAction" method="toshowpingjia">
+            <result name="success">/qiantai/jiaoyuan/showpingjia.jsp</result>
+        </action>
+
+        <!--学员-->
+        <action name="xueyuanAdd" class="xueyuanAction" method="xueyuanAdd">
+        </action>
+        <action name="xueyuanMana" class="xueyuanAction" method="xueyuanMana">
+            <result>/admin/xueyuan/xueyuanMana.jsp</result>
+        </action>
+        <action name="xueyuanDel" class="xueyuanAction" method="xueyuanDel">
+        </action>
+        <action name="xueyuanDetail" class="xueyuanAction" method="xueyuanDetail">
+            <result>/admin/xueyuan/xueyuanDetail.jsp</result>
+        </action>
+        <action name="xueyuanShenhe" class="xueyuanAction" method="xueyuanShenhe">
+        </action>
+        <action name="xueyuanLogout" class="xueyuanAction" method="xueyuanLogout">
+            <result>/qiantai/default.jsp</result>
+        </action>
+        <action name="xueyuanDetail_qian" class="xueyuanAction" method="xueyuanDetail_qian">
+            <result>/qiantai/xueyuan/xueyuanDetail_qian.jsp</result>
+        </action>
+        <action name="xueyuanAll" class="xueyuanAction" method="xueyuanAll">
+            <result>/qiantai/xueyuan/xueyuanAll.jsp</result>
+        </action>
+        <action name="xueyuanEdit" class="xueyuanAction" method="xueyuanEdit">
+        </action>
+
+        <!--预约-->
+        <action name="yuyue_jiaoyuan_add" class="yuyueAction" method="yuyue_jiaoyuan_add">
+        </action>
+        <action name="yuyue_xueyuan_add" class="yuyueAction" method="yuyue_xueyuan_add">
+        </action>
+        <action name="yuyuemana" class="yuyueAction" method="yuyuemana">
+            <result>/admin/yuyue/yuyuemana.jsp</result>
+        </action>
+
+        <action name="wodeyuyue_jiaoyuan" class="yuyueAction" method="wodeyuyue_jiaoyuan">
+            <result>/qiantai/yuyue/wodeyuyue_jiaoyuan.jsp</result>
+        </action>
+        <action name="wodeyuyue_xueyuan" class="yuyueAction" method="wodeyuyue_xueyuan">
+            <result>/qiantai/yuyue/wodeyuyue_xueyuan.jsp</result>
+        </action>
+        <action name="yuyuewode_jiaoyuan" class="yuyueAction" method="yuyuewode_jiaoyuan">
+            <result>/qiantai/yuyue/yuyuewode_jiaoyuan.jsp</result>
+        </action>
+        <action name="yuyuewode_xueyuan" class="yuyueAction" method="yuyuewode_xueyuan">
+            <result>/qiantai/yuyue/yuyuewode_xueyuan.jsp</result>
+        </action>
+
+
+        <!--常见问题-->
+        <action name="getallproblem" class="problemAction" method="getAllProblem">
+            <result>/admin/problem/showproblem.jsp</result>
+        </action>
+        <action name="toshowproblem" class="problemAction" method="getAllProblem">
+            <result>/qiantai/problem/showproblem.jsp</result>
+        </action>
+        <action name="searchproblem" class="problemAction" method="searchproblem">
+            <result>/qiantai/problem/showproblem.jsp</result>
+        </action>
+        <!--admin problem-->
+        <action name="problemadd" class="problemAction" method="problemadd">
+        </action>
+        <action name="toproblemupdate" class="problemAction" method="toproblemupdate">
+            <result name="success">/admin/problem/problemupdate.jsp</result>
+        </action>
+        <action name="toproblemdelete" class="problemAction" method="problemdelete">
+            <result name="success">/admin/problem/problemupdate.jsp</result>
+        </action>
+        <action name="problemupdate" class="problemAction" method="problemupdate">
+
+        </action>
+
+    </package>
+</struts>

@@ -1,0 +1,82 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jiajiaomana:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jiajiaomana_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jiajiaomana/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jiajiaomana" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="FCKeditor-2.3.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="antlr-2.7.6rc1.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="asm-attrs.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="asm.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="c3p0-0.9.0.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="c3p0-0.9.1.1.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="cglib-2.1.3.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-attributes-api.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-attributes-compiler.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-collections-2.1.1.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-collections-3.2.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-dbcp.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-fileupload-1.2.1.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-io-1.3.2.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-lang.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-logging-1.0.4.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="commons-pool-1.2.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="connector.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="cos.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="dwr.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="ehcache-1.2.4.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="fckeditor-java-core-2.4.1.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="freemarker-2.3.8.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="freemarker.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="hibernate3.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="jakarta-oro-2.0.8.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="java-core-2.4.1.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="javaee.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="jcommon-1.0.14.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="jdbc2_0-stdext.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="jdo2-api.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="jotm.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="jspsmartupload.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="jstl-1.2.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="jta.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="liuliu.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="log4j-1.2.14.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="msbase.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="mssqlserver.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="msutil.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="mysql-connector-java-5.0.4-bin.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="ognl-2.6.11.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="oro-2.0.8.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="oscache-2.1.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="persistence.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="proxool-0.8.3.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="slf4j-api-1.5.2.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="slf4j-simple-1.5.2.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-beans.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-context.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-core.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-dao.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-hibernate3.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-jdbc.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-struts.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-tomcat-weaver.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-web.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring-webmvc.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="spring.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="struts2-core-2.0.9.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="struts2-spring-plugin-2.0.9.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="xapool.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="xml-apis.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="xwork-2.0.4.jar" module-name="jiajiaomana" />
+          <element id="library" level="module" name="sqljdbc.jar" module-name="jiajiaomana" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="jiajiaomana/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

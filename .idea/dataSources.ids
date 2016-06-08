@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - db_jiajiaomana@localhost" uuid="8553b144-c378-4297-a7ef-63265305010b">
+    <database-info product="MySQL" version="5.7.10-enterprise-commercial-advanced-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="db_jiajiaomana"/>
+      <table id="2" parent="1" name="t_admin"/>
+      <table id="3" parent="1" name="t_gonggao"/>
+      <table id="4" parent="1" name="t_jiaoyuan"/>
+      <table id="5" parent="1" name="t_pinglun"/>
+      <table id="6" parent="1" name="t_xueyuan"/>
+      <table id="7" parent="1" name="t_yuyue"/>
+      <column id="8" parent="2" name="userId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="9" parent="2" name="userName">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="10" parent="2" name="userPw">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="11" parent="2" name="PRIMARY">
+        <columns>userId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="12" parent="3" name="gonggao_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="13" parent="3" name="gonggao_title">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="14" parent="3" name="gonggao_content">
+        <data-type>varchar(8000)</data-type>
+      </column>
+      <column id="15" parent="3" name="gonggao_data">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="16" parent="3" name="gonggao_fabuzhe">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="17" parent="3" name="gonggao_del">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="18" parent="3" name="gonggao_one1">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="19" parent="3" name="gonggao_one2">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="20" parent="3" name="gonggao_one3">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="21" parent="3" name="gonggao_one4">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="22" parent="3" name="gonggao_one5">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="23" parent="3" name="gonggao_one6">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="24" parent="3" name="gonggao_one7">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="25" parent="3" name="gonggao_one8">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="26" parent="3" name="PRIMARY">
+        <columns>gonggao_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="27" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="28" parent="4" name="loginname">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="29" parent="4" name="loginpw">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="30" parent="4" name="name">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="31" parent="4" name="sex">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="32" parent="4" name="age">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="33" parent="4" name="tel">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="34" parent="4" name="address">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="35" parent="4" name="shenfen">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="36" parent="4" name="xueli">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="37" parent="4" name="kefudaokemu">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="38" parent="4" name="ziwojieshao">
+        <data-type>varchar(5000)</data-type>
+      </column>
+      <column id="39" parent="4" name="fujian">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="40" parent="4" name="del">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="41" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="42" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="43" parent="5" name="kefang_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="44" parent="5" name="content">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="45" parent="5" name="shijian">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="46" parent="5" name="star">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="47" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="48" parent="6" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="49" parent="6" name="loginname">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="50" parent="6" name="loginpw">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="51" parent="6" name="name">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="52" parent="6" name="sex">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="53" parent="6" name="age">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="54" parent="6" name="tel">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="55" parent="6" name="address">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="56" parent="6" name="fudaokemu">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="57" parent="6" name="xueyuanqingkuang">
+        <data-type>varchar(5000)</data-type>
+      </column>
+      <column id="58" parent="6" name="jiaoyuanyaoqiu">
+        <data-type>varchar(5000)</data-type>
+      </column>
+      <column id="59" parent="6" name="del">
+        <data-type>varchar(5000)</data-type>
+      </column>
+      <key id="60" parent="6" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="61" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="62" parent="7" name="xueyuan_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="63" parent="7" name="jiaoyuan_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="64" parent="7" name="yuyuezhe_tel">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="65" parent="7" name="shijian">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="66" parent="7" name="beizhu">
+        <data-type>varchar(5000)</data-type>
+      </column>
+      <column id="67" parent="7" name="type">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="68" parent="7" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
